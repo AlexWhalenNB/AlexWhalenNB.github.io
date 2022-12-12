@@ -1,15 +1,225 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-        <script src="" async defer></script>
-    </body>
-</html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">Alex Whalen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#programing">Programing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#web">Web Development</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#database">Databases and QA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Alex Whalen <span class="text-warning">	&lt;Programmer - Analyst&gt;</Programmer></span></h1>
+            <p class="lead my-4">
+              Soon to be graduated Programmer from NBCC with a mind for learning looking for new oppurtunities
+              while finishing college and into the future
+            </p>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block p-2 pb-4"
+            src="img/lead.jpg"
+            alt="A picture of a laptop with vscode open and a coffee cup beside it"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+          <div class="row text-center g-4">
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-laptop"></i>
+                  </div>
+                  <h3 class="card-title mb-3">Javascript</h3>
+                  <p class="card-text">
+                    Able to implement Front and back end Javascript
+                    as well as develop custom APIs, NodeJs, and React apps.
+                  </p>
+                  <a href="https://github.com/AlexWhalenNB/javascript" class="btn btn-primary">View Javascript Projects</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-secondary text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-cup"></i>
+                  </div>
+                  <h3 class="card-title mb-3">Java</h3>
+                  <p class="card-text">
+                    Design and program java appliclations and J2EE
+                    programs and connect them with datebases
+                  </p>
+                  <a href="https://github.com/AlexWhalenNB/Java" class="btn btn-dark">View java Projects</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-people"></i>
+                  </div>
+                  <h3 class="card-title mb-3">ASP.Net and C#</h3>
+                  <p class="card-text">
+                    Can develop stand alone c# programs in .Net and ASP.NET 
+                    and connect them to databases
+                  </p>
+                  <a href="https://github.com/AlexWhalenNB/ASP" class="btn btn-primary">View C# projects</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="programing" class="p-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <img src="img/program.jpg" class="img-fluid" alt="javascript code at a angle" />
+            </div>
+            <div class="col-md p-5">
+              <h2>Programing Languages</h2>
+              <p class="lead">
+                Proficent in 
+              </p>
+              <ul>
+                <li>Java</li>
+                <li>C# .Net</li>
+                <li>ASP.net</li>
+                <li>Node.js</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="web" class="p-5 bg-dark text-light">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+              <h2>Web Design</h2>
+              <p class="lead">
+                Fast fully responsive web designs using the most popular libraries
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+              </ul>
+              
+            </div>
+            <div class="col-md">
+              <img src="img/web.jpg" class="img-fluid" alt="A laptop on a counter with a small black book on it and a black leather couch in the background" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="database" class="p-5 bg-warning">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <img src="img/database.jpg" class="img-fluid" alt="a whiteboard with a flowchart on it" />
+            </div>
+            <div class="col-md p-5">
+              <h2>Database Programing and Quality Assurance Testing</h2>
+              <p class="lead">
+                Connect your program with a variety of popular databes libraies
+              </p>
+              <ul>
+                <li>mySQL</li>
+                <li>Microsoft SQL Server</li>
+                <li>MongoDB</li>
+              </ul>
+              <p class="lead">
+                QA testing services available with the following frameworks
+            </p>
+              <ul>
+               
+                <li>Mocha and Chai</li>
+                <li>Selenium</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="p-5 bg-light">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md">
+              <h2 class="text-center mb-4">Contact Info</h2>
+              <ul class="list-group list-group-flush lead ">
+                <li class="list-group-item bg-light">
+                  <span class="fw-bold">Based in Saint John, New Brunswick </span>
+                </li>
+                <li class="list-group-item bg-light">
+                  <span class="fw-bold">Phone:</span> (506) XXX-XXXX
+                </li>
+                <li class="list-group-item bg-light">
+                  <span class="fw-bold">Email:</span> Alex.Whalen@msn.com
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
