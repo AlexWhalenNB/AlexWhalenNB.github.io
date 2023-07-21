@@ -3,13 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Alex Whalen - Full Stack Developer</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
@@ -18,6 +16,7 @@
   </head>
 
   <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
       <div class="container">
         <a class="navbar-brand" href="#">Alex Whalen</a>
@@ -33,13 +32,13 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#programing">Programing</a>
+              <a class="nav-link" href="#webDesign">Web Development</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#web">Web Development</a>
+              <a class="nav-link" href="#backendDesign">Backend and Databases</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#database">Databases and QA</a>
+              <a class="nav-link" href="#otherDesign">QA and Analytics</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -68,7 +67,7 @@
             <img
               class="img-fluid float-end"
               src="/img/Development-cuate.png"
-              alt=""
+              alt="a Developer working infront of a laptop"
             />
           </div>
         </div>
@@ -85,7 +84,7 @@
               <img
                 src="/img/Website setup-amico.png"
                 class="card-img-top img-fluid stackImg"
-                alt="..."
+                alt="a stylized image of a woman designing a laptop"
               />
               <div class="card-body">
                 <h4 class="text-center mb-3 stackCardHeader">Frontend</h4>
@@ -116,7 +115,7 @@
               <img
                 src="/img/Website setup-pana.png"
                 class="card-img-top img-fluid stackImg"
-                alt="..."
+                alt="a stylized image of two people building a laptop"
               />
               <div class="card-body">
                 <h4 class="text-center mb-3 stackCardHeader">Backend</h4>
@@ -151,7 +150,7 @@
               <img
                 src="/img/Social Dashboard-amico.png"
                 class="card-img-top img-fluid stackImg"
-                alt="..."
+                alt="a stylized image of two people looking at analytics"
               />
               <div class="card-body p-4">
                 <h4 class="text-center mb-3 stackCardHeader">
@@ -194,7 +193,7 @@
             <img
               src="img/Website Creator-amico.png"
               class="img-fluid"
-              alt="javascript code at a angle"
+              alt="a stylized image of two people building a website"
             />
           </div>
           <div class="col-12 col-lg-7">
@@ -225,6 +224,7 @@
                 existing site, integrate 3rd party APIs and social media, and
                 SEO (Search Engine Optimization).
               </li>
+              <h6 class="fw-bold text-center stackCardHeader">Experience</h6>
               <ul class="list-inline techList mt-2">
                 <li class="list-inline-item mx-auto">
                   <img
@@ -272,7 +272,14 @@
     <section class="bg-light text-dark" id="backendDesign">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-7">
+          <div class="col-12 col-lg-5 my-auto order-lg-last">
+            <img
+              src="img/Programmer-rafiki.png"
+              class="img-fluid"
+              alt="a stylized image of a man programming"
+            />
+          </div>
+          <div class="col-12 col-lg-7 order-lg-first">
             <h2 class="display-4 pt-5 mb-2">Backend Programming</h2>
             <ul class="list-unstyled">
               <li class="p-2 fw-semibold">
@@ -300,6 +307,7 @@
                 database is accurate, valid, and consistent. Easily connect your
                 database to popular or custom analysis and visulization programs.
               </li>
+              <h6 class="fw-bold text-center stackCardHeader">Experience</h6>
               <ul class="list-inline techList mt-2">
                 <li class="list-inline-item mx-auto">
                   <img
@@ -339,26 +347,19 @@
               </ul>
             </ul>
           </div>
-          <div class="col-12 col-lg-5 my-auto">
-            <img
-              src="img/Programmer-rafiki.png"
-              class="img-fluid"
-              alt="javascript code at a angle"
-            />
-          </div>
         </div>
       </div>
     </section>
 
     <!-- QA Analytics -->
-    <section class="bg-light text-dark" id="otherDesign">
+    <section class="text-dark" id="otherDesign">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-5 my-auto">
             <img
               src="img/Site Stats-amico.png"
               class="img-fluid"
-              alt="javascript code at a angle"
+              alt="a stylized image of a man looking at analytics charts"
             />
           </div>
           <div class="col-12 col-lg-7">
@@ -391,7 +392,8 @@
                 databases into desktop applications for efficient data storage and retrieval. Upgrade and 
                 modernize outdated desktop applications to improve performance, security, and user experience.
               </li>
-              <ul class="list-inline languageList mt-2">
+              <h6 class="fw-bold text-center stackCardHeader">Experience</h6>
+              <ul class="list-inline techList mt-2">
                 <li class="list-inline-item mx-auto">
                   <img
                     src="img/cSharp.png"
@@ -455,21 +457,56 @@
       </div>
     </section>
 
-    <section id="contact" class="p-5 bg-light">
+    <!-- contact about -->
+    <section class="bg-warning" id="contact">
       <div class="container">
-        <div class="row g-4">
-          <div class="col-md">
-            <h2 class="text-center mb-4">Contact Info</h2>
-            <ul class="list-group list-group-flush lead">
-              <li class="list-group-item bg-light">
-                <span class="fw-bold">Based in Saint John, New Brunswick </span>
-              </li>
-              <li class="list-group-item bg-light">
-                <span class="fw-bold">Phone:</span> (506) XXX-XXXX
-              </li>
-              <li class="list-group-item bg-light">
+        <div class="row p-2">
+          <div class="col-12 col-lg-4">
+            <h2 class="text-center mb-4">Contact</h2>
+            <ul class="list-group text-center">
+              <li class="list-group-item">
                 <span class="fw-bold">Email:</span> Alex.Whalen@msn.com
               </li>
+              <li class="list-group-item">
+                <ul class="list-inline techList mt-2">
+                  <li class="list-inline-item mx-auto">
+                    <a href="https://github.com/AlexWhalenNB">
+                      <img
+                      src="img/github.png"
+                      class="img-fluid techLogo"
+                      alt="github logo"
+                      />
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-auto">
+                    <a href="https://www.linkedin.com/in/alex-whalen-3b19221b5/">
+                      <img
+                      src="img/linkedIn.png"
+                      class="img-fluid techLogo"
+                      alt="linkedin logo"
+                      />
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-auto">
+                    <a href="https://www.fiverr.com/alexwhalennb?up_rollout=true">
+                      <img
+                      src="img/fiverr.png"
+                      class="img-fluid techLogo"
+                      alt="fiverr logo"
+                      />
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-auto">
+                    <a href="">
+                      <img
+                      src="img/upWork.png"
+                      class="img-fluid techLogo"
+                      alt="upwork logo"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </li> 
             </ul>
           </div>
           <div class="col-md">
@@ -482,5 +519,9 @@
     <section class="bg-dark" id="footer">
       <a href="https://storyset.com/technology">Technology illustrations by Storyset</a>
     </section>
+
+    <!-- js scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
   </body>
 </html>
