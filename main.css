@@ -1,7 +1,22 @@
 
+#aboutPhoto
+{
+    border-radius: 50%;
+    float: right;
+}
+
+.projectCard:hover {
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+    opacity: 0.8;
+}
 
 .stackCardHeader {
     border-bottom: 2px solid #ffc107;
+}
+
+.aboutHeader {
+    border-bottom: 2px solid #000000;
 }
 
 .stackImg {
